@@ -1,22 +1,29 @@
-#body {
-    background-image: url("/img/goldbackground.png");
-    background-color: whitesmoke;
-	margin: 0;
-    padding: 0;
-    
+body {
+    background-color: #ffffff;
+    background-attachment: fixed;
+    background-size: contain;
 }
 
+
+
 .linkedInPic {
+    width: 100%;
+    height:auto;
     padding: 15%;
-    margin: 0px 0px 0px -50px;
+    margin: 50px 0px 0px 30px; 
 }
 
 h1 {
-    padding:10%;
+    padding:15%;
     width: 100%;
-    font-family: 'Cinzel', serif;
-    font-size: 60px;
-    text-align: block center 
+    font-family: 'Rock Salt', cursive;
+    font-size: 80px;
+    text-align: block center inline; 
+}
+
+.col1{
+    padding:5%;
+    margin: 75px 0px 0px 0px;
 }
 
 .btn-outline-secondary{
@@ -28,7 +35,9 @@ h1 {
 }
 
 .LinkedInLink{
-    margin: 70px 0px 0px 50px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 25px;
+    
 }
 
 .jumbotron{
@@ -40,6 +49,8 @@ h1 {
     border-image: url(img/kisspng-picture-frames-gold-vintage1.png) 150 stretch;
     height: 100%;
     width: 100%;
+   
+
 }
 
 span.github-button  a:link {
